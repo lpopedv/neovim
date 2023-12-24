@@ -7,4 +7,7 @@ vim.cmd("set softtabstop=2")
 -- Define o número de espaços usados para o recuo automático. Neste caso, o recuo é de 2 espaços
 vim.cmd("set shiftwidth=2")
 
+vim.cmd("set nu")
+
+vim.g.mapleader = " "
 

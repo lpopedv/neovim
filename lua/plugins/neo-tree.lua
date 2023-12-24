@@ -1,5 +1,4 @@
 return {
-
   "nvim-neo-tree/neo-tree.nvim",
   branch = "v3.x",
   dependencies = {
@@ -8,8 +7,8 @@ return {
     "MunifTanjim/nui.nvim",
   },
   config = function()
-    vim.keymap.set('n', '<C-b>', ':Neotree filesystem reveal right<CR>')
-    vim.keymap.set('n', '<C-c>', ':Neotree close<CR>')
+    vim.keymap.set('n', '<leader>oo', ':Neotree filesystem reveal right<CR>')
+    vim.keymap.set('n', '<leader>cc', ':Neotree close<CR>')
   end
 }
 
