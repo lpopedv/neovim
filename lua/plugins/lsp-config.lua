@@ -9,7 +9,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "tsserver" }
+        ensure_installed = { "lua_ls", "tsserver", "rust_analyzer", "hydra_lsp", "prismals" }
       })
     end
   },
@@ -20,6 +20,9 @@ return {
       -- lsps 
       lspconfig.lua_ls.setup({})
       lspconfig.tsserver.setup({})
+      lspconfig.rust_analyzer.setup({})
+      lspconfig.hydra_lsp.setup({})
+      lspconfig.prismals.setup({})
 
       -- keymaps
       vim.keymap.set('n', 'I', vim.lsp.buf.hover, {})
