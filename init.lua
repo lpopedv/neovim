@@ -1,4 +1,4 @@
--- Inicia o gerenciador de plugins lazy.nvim e carrega os plugins
+--   Inicia o gerenciador de plugins lazy.nvim e carrega os plugins
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
 if not vim.loop.fs_stat(lazypath) then
