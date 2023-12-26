@@ -23,11 +23,6 @@ return {
       lspconfig.rust_analyzer.setup({})
       lspconfig.hydra_lsp.setup({})
       lspconfig.prismals.setup({})
-
-      -- keymaps
-      vim.keymap.set('n', 'I', vim.lsp.buf.hover, {})
-      vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
-      vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
-     end
+    end
   }
 }

@@ -1,4 +1,3 @@
---   Inicia o gerenciador de plugins lazy.nvim e carrega os plugins
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 
 if not vim.loop.fs_stat(lazypath) then
@@ -14,6 +13,7 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("vim-options")
 
+require("vim-options")
+require("keymaps")
 require("lazy").setup("plugins")
