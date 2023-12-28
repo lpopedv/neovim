@@ -11,8 +11,8 @@ vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
 vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
 
 -- neoTree keymaps
-vim.keymap.set('n', '<leader>oo', ':Neotree filesystem reveal right<CR>')
-vim.keymap.set('n', '<leader>cc', ':Neotree close<CR>')
+vim.keymap.set('n', '<leader>sd', ':Neotree filesystem reveal right<CR>')
+
 
 -- toggleTerm keymaps
 vim.keymap.set('n', '<leader>t', ':ToggleTerm<CR>')
