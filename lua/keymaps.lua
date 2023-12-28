@@ -12,3 +12,6 @@ vim.keymap.set('n', '<leader>cc', ':Neotree close<CR>')
 
 -- toggleTerm keymaps
 vim.keymap.set('n', '<leader>t', ':ToggleTerm<CR>')
+
+-- none-ls
+vim.keymap.set('n', '<leader>gf', vim.lsp.buf.format, {})
