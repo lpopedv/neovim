@@ -7,7 +7,9 @@ return {
     configs.setup({
       auto_install = true,
       highlight = { enable = true },
-      ident = { enable = true }
+      ident = { enable = true },
+      autotag = { enable = true },
+
     })
   end
 }

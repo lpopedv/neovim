@@ -13,16 +13,4 @@ return {
       })
     end
   },
-  {
-    "neovim/nvim-lspconfig",
-     config = function()
-      local lspconfig = require("lspconfig")
-      -- lsps 
-      lspconfig.lua_ls.setup({})
-      lspconfig.tsserver.setup({})
-      lspconfig.rust_analyzer.setup({})
-      lspconfig.hydra_lsp.setup({})
-      lspconfig.prismals.setup({})
-    end
-  }
 }

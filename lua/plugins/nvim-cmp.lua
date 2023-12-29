@@ -43,6 +43,7 @@ return {
         { name = "buffer" },
         { name = "path" },
         { name = "luasnip" },
+        { name = "tsserver" }
       },
     })
   end,
