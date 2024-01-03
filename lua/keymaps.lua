@@ -4,6 +4,7 @@ vim.g.mapleader = " "
 -- general keymaps
 vim.keymap.set('n', '<leader>vp', ':vsplit<CR>')
 vim.keymap.set('n', '<leader>q', ':q<CR>')
+vim.keymap.set('n', '<leader>sa', 'ggVG')
 
 -- lspconfig keymaps
 vim.keymap.set('n', 'I', vim.lsp.buf.hover, {})
