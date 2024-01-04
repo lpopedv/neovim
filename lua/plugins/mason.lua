@@ -9,7 +9,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "tsserver", "rust_analyzer", "hydra_lsp", "prismals", "emmet_language_server" }
+        ensure_installed = { "lua_ls", "tsserver", "rust_analyzer", "hydra_lsp", "prismals", "emmet_language_server", "gopls" }
       })
     end
   },
